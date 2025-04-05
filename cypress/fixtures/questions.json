@@ -1,0 +1,14 @@
+[
+    {
+      "question": "What is JavaScript?",
+      "answers": ["Programming language", "Database", "Operating System", "Text Editor"],
+      "correctAnswer": "Programming language"
+    },
+    {
+      "question": "What is Node.js used for?",
+      "answers": ["Backend development", "Frontend development", "Database management", "Designing UI"],
+      "correctAnswer": "Backend development"
+    }
+    // Add more questions here
+  ]
+  
