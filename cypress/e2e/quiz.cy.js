@@ -1,8 +1,8 @@
 describe('Tech Quiz - End-to-End Flow', () => {
     it('should complete the quiz and display the score', () => {
       cy.visit('/'); // Navigate to the home page
-  
-      cy.get('button').contains('Start Quiz').click(); // Start the quiz
+      cy.wait(2000);  // Wait for 2 seconds
+      cy.get('button.btn.btn-success.btn-lg').should('be.visible').contains('Start Quiz').click(); // Start the quiz
   
       // Answer all 10 questions
       for (let i = 0; i < 10; i++) {
