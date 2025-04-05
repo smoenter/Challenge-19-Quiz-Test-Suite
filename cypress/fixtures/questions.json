@@ -8,7 +8,47 @@
       "question": "What is Node.js used for?",
       "answers": ["Backend development", "Frontend development", "Database management", "Designing UI"],
       "correctAnswer": "Backend development"
-    }
-    // Add more questions here
+    },
+    {
+        "question": "What is the purpose of Git?",
+        "answers": ["Version control", "Database management", "Web server hosting", "Operating System"],
+        "correctAnswer": "Version control"
+      },
+      {
+        "question": "Which of the following is a front-end JavaScript framework?",
+        "answers": ["Node.js", "React", "Express.js", "Dijango"],
+        "correctAnswer": "React"
+      },
+      {
+        "question": "What does the CSS property display:flex do?",
+        "answers": ["Aligns text vertically", "Arranges items in a flexible layout", "Changes teh background colot", "Adds borders to elements"],
+        "correctAnswer": "Arranges items in a flexible layout"
+      },
+      {
+        "question": "Which SQL command is used to retrieve data from a database?",
+        "answers": ["INSERT", "SELECT", "DELETE", "UPDATE"],
+        "correctAnswer": "SELECT"
+      },
+      {
+        "question": "What does the npm command do in JavaScript development?",
+        "answers": ["Manages databases", "Installs packages and dependencies", "Translates JavaScript code", "Serves web pages"],
+        "correctAnswer": "Installs packages and dependencies"
+      },
+      {
+        "question": "Which of these is NOT a JavaScript data type?",
+        "answers": ["String", "Integer", "Boolean", "Undefined"],
+        "correctAnswer": "Integer (JavaScript uses Number instead of Integer"
+      },
+      {
+        "question": "What is the amin function of a RESTful API?",
+        "answers": ["Connects databases", "Facilitates communication between client and server", "Manages user authentication", "Provides real-time data updates"],
+        "correctAnswer": "Facilitates communication between client and server"
+      },
+      {
+        "question": "Which tool is commonly used for testing React components?",
+        "answers": ["Jest", "Webpack", "Babel", "MongoDB"],
+        "correctAnswer": "Jest"
+      }
+  
   ]
   
