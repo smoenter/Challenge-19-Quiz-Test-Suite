@@ -1,3 +1,6 @@
+import { mount } from 'cypress/react18';
+
+
 describe('Quiz Component', () => {
     it('renders and allows the user to start the quiz', () => {
       cy.mount(<Quiz />); // Mount the Quiz component
