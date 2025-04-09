@@ -12,10 +12,19 @@ export default defineConfig({
   },
 
   e2e: {
-    baseUrl: 'http://localhost:3000',
+    baseUrl: 'http://localhost:3001',
+    fixturesFolder: 'cypress/fixtures',
+    video: true, // Enable video recording during e2e tests
+    parallel: true, // Enable parallel test execution
     supportFile: false,
+    env: {
+      apiUrl: 'http://localhost:3001/api', // Example environment variable
+    },
     setupNodeEvents(on, config) {
-      // implement node event listeners here
+      // Example event listener
+      on('before:run', () => {
+        console.log('Tests are about to start!');
+      });
     },
   },
 });
